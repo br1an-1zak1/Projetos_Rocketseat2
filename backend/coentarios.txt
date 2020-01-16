@@ -1,0 +1,10 @@
+// app.get(express.json()) ------ para o caso de querer que apenas o método GET interprete o corpo em json. {usado no arquivo index.js}
+
+// Métodos HTTP: GET, POST, PUT, DELETE 
+
+// TIPOS DE PARAMETROS 
+
+//  query params: request.query (utilizado para filtros, consultas, ...)
+//  route params: request.params (identifica um recurso na alteração ou remoção)
+//  body: request.body (dados para criação ou alteração de um registro)
+//        obs: lib express não reconhece o json
