@@ -6,6 +6,9 @@ const routes = Router();
 
 routes.get('/devs', DevController.index);
 routes.post('/devs', DevController.store);
+routes.put('/dev/:id', DevController.update);
+routes.delete('/dev/:id', DevController.destroy);
+
 
 routes.get('/search', SearchController.index);
 
