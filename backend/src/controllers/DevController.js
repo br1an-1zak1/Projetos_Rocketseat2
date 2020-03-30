@@ -52,7 +52,14 @@ module.exports = {
   },
 
   async update(request, response){
-    
+    //alteração pelo id;
+    console.log(request.body);
+    const dev = request.body;
+
+
+
+    return response.json(dev); //resposta do requerimento
+
   },
 
   async destroy(request, response){

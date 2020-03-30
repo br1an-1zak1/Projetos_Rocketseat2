@@ -6,7 +6,7 @@ const routes = Router();
 
 routes.get('/devs', DevController.index);
 routes.post('/devs', DevController.store);
-routes.put('/dev/:id', DevController.update);
+routes.put('/dev', DevController.update);
 routes.delete('/dev/:id', DevController.destroy);
 
 
